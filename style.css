@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'malbergregular';
+    src: url(fonts/malberg/MalbergTrial-Regular.ttf);
+}
+@font-face {
+    font-family: malbergheavy;
+    src: url(fonts/malberg/MalbergTrial-Heavy.ttf);
+}
+
+body{
+    background-image: linear-gradient(to left, #3E367D, #15122b);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+a:hover{
+    color: rgb(105, 105, 218);
+    transition: 0.3s all;
+}
+a{
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    
+}
+section h1{
+    line-height: 10px;
+    font-size: 45px;
+    font-family: 'malbergregular';
+}
+div h2{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+    width: 650px;
+}
+main{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img#grande{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+img#pequena{
+    margin-right: 600px;
+    height: 100px;
+    width: 100px;
+}
